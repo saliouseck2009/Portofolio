@@ -56,4 +56,21 @@
   bottom: 30px;
   left: 60px;
 }
+
+/* Style buttons */
+.btn_down {
+  background-color: #0bceaf;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 30px;
+  border-radius: 40px;
+}
+
+/* Darker background on mouse-over */
+.btn_down:hover {
+  background-color: #0bceaf;
+}
 /*# sourceMappingURL=style.css.map */
