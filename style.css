@@ -8,8 +8,47 @@
   text-decoration: none;
 }
 
+/*===================================
+     HOME PAGE STYLE  
+=====================================*/
+#namm_author, #status {
+  font-weight: 600;
+  line-height: 65px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "roboto", sans-serif;
+}
+
 .section_marg {
-  margin-top: 20px;
-  padding-top: 20px;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.greet {
+  background-color: #0bceaf;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding: 10px 30px;
+  margin-bottom: 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 0px;
+}
+
+#namm_author {
+  font-size: 60px;
+}
+
+#status {
+  font-size: 30px;
+}
+
+.description {
+  font-family: "roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
 }
 /*# sourceMappingURL=style.css.map */
