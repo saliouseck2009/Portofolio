@@ -41,16 +41,15 @@ $color:#0bceaf;
     letter-spacing: 1px;
     font-weight: bold;
     padding: 10px 30px;
-    margin-bottom: 30px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 0px;
 }
 
-#namm_author{
+#name_author{
     @extend %format_text;
-    font-size: 60px;
+    font-size: 50px;
     
 }
 #status{
@@ -61,5 +60,11 @@ $color:#0bceaf;
     font-family: "roboto", sans-serif;
     font-size: 20px;
     font-weight: 400;
+}
+
+#footer{
+    position: fixed;
+    bottom: 30px;
+    left: 60px;
 }
 
