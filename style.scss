@@ -1,0 +1,23 @@
+// variable
+$color:#0bceaf;
+
+.navbar-light .navbar-nav #nav_link:hover{
+    color:$color ;
+    text-decoration: none;
+}
+#nav_link:hover{
+    color: $color;
+    text-decoration: none;
+}
+
+#profil_text{
+    
+}
+#profil_image{
+    
+}
+
+.section_marg{
+    margin-top: 20px;
+    padding-top: 20px;
+}

@@ -1,0 +1,15 @@
+.navbar-light .navbar-nav #nav_link:hover {
+  color: #0bceaf;
+  text-decoration: none;
+}
+
+#nav_link:hover {
+  color: #0bceaf;
+  text-decoration: none;
+}
+
+.section_marg {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+/*# sourceMappingURL=style.css.map */
