@@ -1,6 +1,10 @@
 // variable
 $color:#0bceaf;
 
+*{
+    box-sizing: border-box;
+}
+
 .navbar-light .navbar-nav #nav_link:hover{
     color:$color ;
     text-decoration: none;
@@ -83,3 +87,52 @@ $color:#0bceaf;
 .btn_down:hover {
     background-color: $color;
 }
+
+
+// CV PAGE 
+
+/* Container for flexboxes */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+.row .title{
+    @extend %format_text;
+    font-size:28px ;
+}
+  
+  /* Create four equal columns */
+.column {
+    flex: 25%;
+    padding: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    box-shadow: 0px 10px 20px 4px #00000015;
+}
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 992px) {
+    .column {
+      flex: 50%;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+
