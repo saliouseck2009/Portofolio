@@ -135,4 +135,18 @@
   margin-top: 15px;
   margin-bottom: 8px;
 }
+
+._row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 992px) {
+  ._row {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
 /*# sourceMappingURL=style.css.map */

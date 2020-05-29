@@ -136,3 +136,13 @@ $color:#0bceaf;
 }
 
 
+._row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media screen and (max-width: 992px) {
+
+  ._row{
+    grid-template-columns: 1fr;
+  }
+}
