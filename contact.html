@@ -14,15 +14,15 @@
 
     <title>Hello, world!</title>
 </head> 
-<body>
+<body class="map-image image-bg">
     <div class="container-flud">
         <!-- 
             ==========================================
                             NAV BAR
             ==========================================
         -->
-        <nav class="navbar navbar-expand-lg navbar-white bg-white">
-            <a class="navbar-brand" href="index.html">Saliou Seck</a>
+        <nav class="navbar navbar-expand-lg navbar-info bg-white pt-4 pl-4">
+            <a class="navbar-brand badge badge-info text-white" id="nav_brand" href="index.html">Saliou Seck</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -94,8 +94,13 @@
                                 
                           </form>                   
                     </div>
-                    <div class="col-sm-6 col-12" id ="profil_text">
-                        <iframe aria-hidden="true" frameborder="0" tabindex="-1" style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: none; --darkreader-inline-border-top: initial; --darkreader-inline-border-right: initial; --darkreader-inline-border-bottom: initial; --darkreader-inline-border-left: initial;" data-darkreader-inline-border-top="" data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left=""></iframe>
+                    <div class="col-lg-6 col-12" id ="profil_text">
+                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d655.6783046818256!2d-17.4393265521509!3d14.765349541010261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sfr!2ssn!4v1590788614210!5m2!1sfr!2ssn" width="480" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <!--Google map-->
+                        <!-- <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 700px; width: w-7500px">
+                            <iframe  class="embed-responsive-item" src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                              style="border:0" allowfullscreen></iframe> -->
+                    </div>
                     </div>       
                 </div>
             </div>
@@ -104,9 +109,14 @@
         <!-- 
             ============ FOOTER ===============
          -->
-        <footer>
-            <div class="container" id="footer">All right reserved Saliou © 2020</div>
-        </footer>
+        <!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">All right reserved Saliou © 2020
+      
+    </div>
+    <!-- Copyright -->
+</footer>
 
     </div>
 

@@ -3,14 +3,32 @@
           box-sizing: border-box;
 }
 
-.navbar-light .navbar-nav #nav_link:hover {
-  color: #0bceaf;
+#nav_brand {
   text-decoration: none;
+  border-bottom: 1px solid transparent;
+  font-weight: bold;
+  font-family: "roboto", sans-serif;
+  font-size: 30px;
+  opacity: 1;
+  line-height: 30px;
+}
+
+#nav_link {
+  border-bottom: 1px solid transparent;
+  font-weight: bold;
+  font-family: "roboto", sans-serif;
+  font-size: 20px;
+  opacity: 1;
+  line-height: 30px;
 }
 
 #nav_link:hover {
-  color: #0bceaf;
+  color: #0bceaf !important;
   text-decoration: none;
+}
+
+#cv {
+  text-decoration: none !important;
 }
 
 /*===================================
@@ -57,7 +75,8 @@
 }
 
 #footer {
-  position: fixed;
+  position: static;
+  bottom: 1px;
   bottom: 30px;
   left: 60px;
 }
